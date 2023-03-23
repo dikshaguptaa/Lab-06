@@ -1,7 +1,21 @@
-def encode(phrase):
-    pass
+def encode(data_string):
+    ReturnData = ""
 
+    for index in data_string:
+        if i < 7:
+            ReturnData = ReturnData + str(i) + 3
+        else:
+            if i == 7:
+                i = 0
+                ReturnData = ReturnData + str(i)
+            elif i == 8:
+                i = 1
+                ReturnData = ReturnData + str(i)
+            elif i == 9:
+                i = 2
+                ReturnData = ReturnData + str(i)
 
+    return ReturnData
 
 def decode(phrase):
     #result string with a foreloop, run through each element of the string and then convert to a number, and then convert
