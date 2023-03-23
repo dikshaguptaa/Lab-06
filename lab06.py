@@ -17,6 +17,11 @@ def string_to_data(data_string):
 
     return ReturnData
 
+print("Menu")
+print("-------------")
+print("1. Encode")
+print("2. Decode")
+print("3. Quit")
 
 userabc = input("passcode: ").split()
 print(string_to_data(userabc))
