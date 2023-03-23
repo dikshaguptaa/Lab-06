@@ -15,6 +15,7 @@ def encode(data_string):
                 i = 2
                 ReturnData = ReturnData + str(i)
 
+                
     return ReturnData
 
 def decode(phrase):
